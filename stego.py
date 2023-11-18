@@ -8,7 +8,7 @@ msg=input("Enter the secret message:")
 password=input("Enter password:")
 
 d={}    #d is the dictionary is used for mapping characters intp string chr(i) to its integer ie i .This dictionary is used for encryption purpose to convert characters of the secret messages into integer values
-c={}    #c is the dictionary is uded for reverse mapping integers into character i to chr(i).This dictionary is used for descryption purpose to covert back integers into charcaters
+c={}    #c is the dictionary is used for reverse mapping integers into character i to chr(i).This dictionary is used for descryption purpose to covert back integers into charcaters
 for i in range(255):
     d[chr(i)]=i
     c[i]=chr(i)
