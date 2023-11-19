@@ -7,7 +7,7 @@ img=cv2.imread("tree.jpg")
 msg=input("Enter the secret message:")
 password=input("Enter password:")
 
-d={}    #d is the dictionary is used for mapping characters intp string chr(i) to its integer ie i .This dictionary is used for encryption purpose to convert characters of the secret messages into integer values
+d={}    #d is the dictionary is used for mapping characters into string chr(i) to its integer ie i .This dictionary is used for encryption purpose to convert characters of the secret messages into integer values
 c={}    #c is the dictionary is used for reverse mapping integers into character i to chr(i).This dictionary is used for descryption purpose to covert back integers into charcaters
 for i in range(255):
     d[chr(i)]=i
